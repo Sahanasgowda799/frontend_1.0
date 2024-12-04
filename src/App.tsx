@@ -1,9 +1,12 @@
 import './App.css';
-
+import Register from './pages/register';
+import Login from './pages/login';
 function App() {
     return (
         <>
-            <h1 className="text-3xl font-bold underline">Hello world!</h1>
+            <Register />
+            <h1 className="text-3xl font-bold underline">Hello! </h1>
+            <Login />
         </>
     );
 }
