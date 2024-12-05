@@ -1,14 +1,8 @@
 import './App.css';
-import Register from './pages/register';
-import Login from './pages/login';
+import AppRouter from './routes';
+
 function App() {
-    return (
-        <>
-            <Register />
-            <h1 className="text-3xl font-bold underline">Hello! </h1>
-            <Login />
-        </>
-    );
+    return <AppRouter />;
 }
 
 export default App;
